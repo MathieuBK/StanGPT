@@ -127,7 +127,7 @@ for message in st.session_state.history:
 
 # User input prompt
 # st.write("")
-user_prompt = st.text_input("",
+user_prompt = st.text_input(" ",
                             # ":orange[Écrivez votre message :]",
                             key="prompt",
                             placeholder="Écrivez votre message...",
