@@ -52,7 +52,7 @@ with col2:
     col1, col2 = st.columns([1,100])
     col2.write("Bonjour, je suis StanGPT, une IA entraînée sur les vidéos de ma chaîne YouTube dédiée au Marketing. Posez-moi vos questions, et je ferai de mon mieux pour y répondre en vous fournissant les liens de vidéos pertinentes pour approfondir le sujet.")
 
-st.caption("---")
+# st.caption("---")
 
 
 # Define chat history storage
